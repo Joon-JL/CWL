@@ -12,7 +12,7 @@ inputs:
        
     default:
       class: File
-      location: tools/clustalo.pl
+      location: ../tools/clustalo.pl
 
 # if python, command is no need
   email:
@@ -31,7 +31,7 @@ inputs:
       prefix: --sequence
     default:
       class: File
-      location: multi.seq
+      location: ../sequence/multi.seq
 
 
 
