@@ -12,7 +12,7 @@ inputs:
        
     default:
       class: File
-      location: tools/fasta.pl
+      location: ../tools/fasta.pl
 
 # if python, command is no need
   email:
@@ -31,7 +31,7 @@ inputs:
       prefix: --sequence
     default:
       class: File
-      location: single.seq
+      location: ../sequence/single.seq
 
 
 
